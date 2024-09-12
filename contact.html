@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Site apprentissage | Contact</title>
+</head>
+<body>
+    <header>
+        <div id-"titre" class="titre">
+            <h1>Site d'apprentissage</h1>
+        </div>
+        <nav>
+            <a class="eee"  href="acceuil.html">Accueil</a>
+            <a class="eee" href="form_type_article.html">Formulaire1</a>
+            <a class="eee" href="form_article.html">Formulaire2</a>
+            <a class="eee" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form action="contact.html" method="get">
+      
+          <label for="fname">Prenom</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+      
+          <label for="lname">Nom</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Pays</label>
+          <select id="country" name="country">
+            <option value ="france">France</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+        
+          </select>
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+</html>
